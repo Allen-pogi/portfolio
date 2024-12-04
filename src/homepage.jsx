@@ -14,21 +14,20 @@ const HomePage = () => {
 
   return (
     <div
-      className="main-container w-full md:px-32 bg-[#111518] overflow-y-hidden"
+ className="w-full  bg-[#111518] overflow-y-hidden"
       style={{
         fontFamily: 'Manrope, "Noto Sans", sans-serif',
         minHeight: "100vh",
       }}
     >
-      <div className="layout-container flex h-full w-full grow flex-col">
-        <div className="flex flex-1 justify-center py-5">
-          <div className="flex flex-col flex-1">
-            <div className="flex flex-col md:flex-row items-center p-4">
+      <div className="r flex h-full w-full grow px-8 md:px-16 flex-col">
+          <div className="flex flex-col  ">
+            <div className="flex flex-col lg:flex-row items-center p-4">
               <div
-                className="flex w-full flex-col md:flex-row gap-4 items-center"
+                className="flex w-full flex-col lg:flex-row gap-4 items-center"
                 data-aos="fade-up"
               >
-              <div className=" w-[24em] h-[24em]  mt-10" data-aos="fade-up" data-aos-delay="400">
+              <div className="md:w-[16em] md:h-[16em]  lg:w-[24em] lg:h-[24em] h-[8em] w-[8em] mt-10" data-aos="fade-up" data-aos-delay="400">
               <ThreeDScene />
             </div>
                 <div className="flex flex-col items-center justify-center">
@@ -83,7 +82,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

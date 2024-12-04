@@ -21,7 +21,7 @@ const RotatingModel = () => {
 };
 
 const ThreeDScene = () => (
-  <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
+  <Canvas camera={{ position: [0, 0, 3], fov: 50 }}>
     <ambientLight intensity={0.5} />
     <directionalLight position={[2, 2, 2]} />
     <RotatingModel />
