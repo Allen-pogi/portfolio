@@ -34,7 +34,7 @@ const Projects = () => {
         
 
           {/* uap photos */}
-  <div className="flex flex-col lg:flex-row  lg:px-0 gap-8 pb-3 mt-24">
+  <div className="flex flex-col lg:flex-row  lg:px-0 gap-12 pb-3 mt-24">
     {/* First Image Group */}
     <div className="flex  lg:flex-row gap-4 justify-center">
       <img src={cpside} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[24rem]" />
