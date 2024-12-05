@@ -87,7 +87,7 @@ const HomePage = () => {
         This portfolio was created in 8 hours, including asset collection. Due to time constraints, it doesn't include intricate designs.
       </p>
       <p className="text-white text-sm mt-2">
-        Built with ❤️ using React and Tailwind CSS.
+        Built using React and Tailwind CSS.
       </p>
       <p className="text-[#9cacba] text-xs mt-2">
         © {new Date().getFullYear()} Allen. All rights reserved.
