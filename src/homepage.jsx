@@ -40,11 +40,11 @@ const HomePage = () => {
                 </div>
               </div>
               <div
-                className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5"
+                className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5 "
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <p className="text-white">
+                <p className="text-white text-justify">
                   My name is Allen Paul Rebolla, a front-end developer based in Gumaca, Quezon,
                   Philippines. I have worked on a wide range of front-end projects, from delivery
                   applications to web management system, with a focus on creating clean,

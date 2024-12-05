@@ -10,6 +10,7 @@ import tabletcenter from '/src/assets/tablet-center.webp';
 import tableteventside from '/src/assets/tablet-event-side.webp';
 import laptopcenter from '/src/assets/laptop-center.webp';
 import laptopsidelogin from '/src/assets/laptop-side-login.webp';
+import allside from '/src/assets/all-side.webp';
 
 import logincenter from '/src/assets/login-center.webp';
 import usercenter from '/src/assets/user-center.webp';
@@ -23,6 +24,7 @@ import user from '/src/assets/customer.webp';
 import biker from '/src/assets/biker.webp';
 import seller from '/src/assets/seller.webp';
 
+
 const Projects = () => {
   return (    
     
@@ -30,35 +32,35 @@ const Projects = () => {
       <h3 className="text-white text-lg font-bold leading-tight tracking-[-0.015em] pb-2 pt-4  ">Projects</h3>
 
         <p className="text-white text-base font-medium leading-normal">UAP Quezon Chapter Information System</p>
-        <p className="text-[#9cacba] text-sm font-normal leading-normal">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
+        <p className="text-[#9cacba] text-sm font-normal leading-normal text-justify ">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
         
 
           {/* uap photos */}
-  <div className="flex flex-col lg:flex-row  lg:px-0 gap-12 pb-3 mt-24">
+  <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
     {/* First Image Group */}
-    <div className="flex  lg:flex-row gap-4 justify-center">
-      <img src={cpside} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[24rem]" />
-      <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" />
+    <div className="flex  lg:flex-row gap-4 ">
+      <img src={allside} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[24rem]" />
+      {/* <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" /> */}
     </div>
     
     {/* Second Image Group */}
-    <div className="flex justify-center lg:flex-row gap-4">
+    {/* <div className="flex justify-center lg:flex-row gap-4">
       <img src={tableteventside} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[20rem]" />
       <img src={tabletcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[20rem]" />
-    </div>
+    </div> */}
     
     {/* Third Image Group */}
-    <div className="flex  justify-center lg:flex-row gap-4">
+    {/* <div className="flex  justify-center lg:flex-row gap-4">
       <img src={laptopsidelogin} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
       <img src={laptopcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
-    </div>
+    </div> */}
   </div>
 
 
 
         <div className='mt-16'>
             <p className="text-white text-base font-medium leading-normal">KATO-OK Delivery Application</p>
-            <p className="text-[#9cacba] text-sm font-normal leading-normal">A simple chat application for delivery business.</p>
+            <p className="text-[#9cacba] text-sm font-normal leading-normal">A delivery application for Gumaca, Quezon.</p>
           </div>
 
            {/* Kato-ok Photos */}
@@ -98,24 +100,24 @@ const Projects = () => {
           </div>
 
           {/* Pasabuy */}
-          <div className="flex gap-16 md:gap-36 md:px-4 lg:gap-72 pb-3 lg:px-24 py-8 ">
+          <div className="flex gap-16 md:gap-36 md:px-4 lg:gap-72 pb-3 lg:px-24 py-8 justify-center">
       <div className='flex justify-center'>
   
       <img src={loginside} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' />
-      <img src={logincenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' />
+      {/* <img src={logincenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' /> */}
       </div>
 
       <div className='flex justify-center'>
      
       <img src={usersude} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem] ' />
-      <img src={usercenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' />
+      {/* <img src={usercenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' /> */}
       </div>
      
       <div className='flex justify-center'>
  
     
       <img src={chatside} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' />
-      <img src={chatcenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' />
+      {/* <img src={chatcenter} alt="Example" className='rounded-xl md:h-[16rem] lg:h-[24rem]' /> */}
       </div>
       
         
