@@ -65,7 +65,7 @@ const Projects = () => {
           </div>
 
            {/* Kato-ok Photos */}
-           <div className="flex gap-16 pb-3 lg:px-64 py-8 ">
+           <div className="flex gap-16 lg:gap-36 pb-3 lg:px-64 py-8 ">
       <div className='flex flex-col items-center'>
   
       <img src={user} alt="Example" className='rounded-xl  md:w-[20rem]' />
