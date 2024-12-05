@@ -65,7 +65,7 @@ const HomePage = () => {
 
             {/* Experience Section */}
             <h3
-              className="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4 mt-10"
+              className="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4 mt-24"
               data-aos="fade-up"
               data-aos-delay="600"
             >

@@ -30,7 +30,7 @@ const Projects = () => {
   return (    
     
     <div className='px-4'>
-      <h3 className="text-white text-lg font-bold leading-tight tracking-[-0.015em] pb-2 pt-4  ">Projects</h3>
+      <h3 className="text-white text-2xl font-bold leading-tight tracking-[-0.015em] pb-2 pt-4 mb-8  ">Projects</h3>
 
         <p className="text-white text-base font-medium leading-normal">UAP Quezon Chapter Information System</p>
         <p className="text-[#9cacba] text-sm font-normal leading-normal text-justify ">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
@@ -40,7 +40,7 @@ const Projects = () => {
   <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
     {/* First Image Group */}
     <div className="flex  lg:flex-row gap-4 ">
-      <img src={allside} alt="Example" className="rounded-xl h-[12rem] md:h-[16rem] lg:h-[24rem]" />
+      <img src={allside} alt="Example" className="rounded-xl h-[12rem] md:h-[24rem] lg:h-[32rem]" />
       {/* <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" /> */}
     </div>
     
