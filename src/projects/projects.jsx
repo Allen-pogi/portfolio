@@ -23,6 +23,7 @@ import chatside from '/src/assets/chat-side.webp';
 import user from '/src/assets/customer.webp';
 import biker from '/src/assets/biker.webp';
 import seller from '/src/assets/seller.webp';
+import Skills from '../skills/skills';
 
 
 const Projects = () => {
@@ -39,7 +40,7 @@ const Projects = () => {
   <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
     {/* First Image Group */}
     <div className="flex  lg:flex-row gap-4 ">
-      <img src={allside} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[24rem]" />
+      <img src={allside} alt="Example" className="rounded-xl h-[12rem] md:h-[16rem] lg:h-[24rem]" />
       {/* <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" /> */}
     </div>
     
@@ -64,28 +65,28 @@ const Projects = () => {
           </div>
 
            {/* Kato-ok Photos */}
-           <div className="flex gap-16 pb-3 lg:px-64 py-8">
-      <div className=''>
+           <div className="flex gap-16 pb-3 lg:px-64 py-8 ">
+      <div className='flex flex-col items-center'>
   
-      <img src={user} alt="Example" className='rounded-xl  md:w-[24rem]' />
-      <h1 className='text-white'>
+      <img src={user} alt="Example" className='rounded-xl  md:w-[20rem]' />
+      <h1 className='text-white text-xs lg:text-base lg:mr-36'>
         Customer App
       </h1>
       </div>
 
-      <div className=''>
+      <div className='flex flex-col items-center'>
      
-      <img src={seller} alt="Example" className='rounded-xl md:w-[24rem]' />
-      <h1 className='text-white'>
+      <img src={seller} alt="Example" className='rounded-xl md:w-[20rem]' />
+      <h1 className='text-white text-xs lg:text-base lg:mr-20' >
         Seller App
       </h1>
       </div>
      
-      <div className=''>
+      <div className='flex flex-col items-center'>
  
     
-      <img src={biker} alt="Example" className='rounded-xl md:w-[24rem]' />
-      <h1 className='text-white'>
+      <img src={biker} alt="Example" className='rounded-xl md:w-[20rem]' />
+      <h1 className='text-white text-xs lg:text-base lg:mr-20'>
         Biker App
       </h1>
       </div>
@@ -123,6 +124,8 @@ const Projects = () => {
         
       
         </div>
+
+     
     
         </div>
       

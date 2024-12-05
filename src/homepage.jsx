@@ -79,7 +79,20 @@ const HomePage = () => {
             <div data-aos="fade-up" data-aos-delay="1000" className="mt-10">
               <Skills />
             </div>
+            
           </div>
+
+          <div className="bg-[#111518] text-center py-4 mt-16">
+      <p className="text-[#9cacba] text-sm">
+        This portfolio was created in 8 hours, including asset collection. Due to time constraints, it doesn't include intricate designs.
+      </p>
+      <p className="text-white text-sm mt-2">
+        Built with ❤️ using React and Tailwind CSS.
+      </p>
+      <p className="text-[#9cacba] text-xs mt-2">
+        © {new Date().getFullYear()} Allen. All rights reserved.
+      </p>
+    </div>
         </div>
       </div>
   );
