@@ -24,10 +24,11 @@ const HomePage = () => {
       {/* Background container for background elements */}
       <div className="background-container">
       <img 
-    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" 
-    alt="Moon"
-    className="moon-img" // Apply a custom class
-  />
+  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" 
+  alt="Moon"
+  className="moon-img  md:h-[70vh] md:w-[70vh]   z-3 right-5  sticky top-0"
+/>
+
         <div className="stars"></div>
         <div className="twinkling"></div>
         <div className="clouds"></div>

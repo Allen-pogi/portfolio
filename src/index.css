@@ -100,8 +100,8 @@
 }
 
 .moon-img {
-  height: 70vh;
-  width: 70vh;
+  height: 20vh;
+  width: 20vh;
   position: absolute;
   z-index: 3;
   right: 20px;
