@@ -30,36 +30,12 @@ const Projects = () => {
   return (    
     
     <div className='px-4'>
+
+      
       <h3 className="text-white text-2xl font-bold leading-tight tracking-[-0.015em] pb-2 pt-4 mb-8  ">Projects</h3>
 
-        <p className="text-white text-base font-medium leading-normal">UAP Quezon Chapter Information System</p>
-        <p className="text-[#9cacba] text-sm font-normal leading-normal text-justify ">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
-        
 
-          {/* uap photos */}
-  <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
-    {/* First Image Group */}
-    <div className="flex  lg:flex-row gap-4 ">
-      <img src={allside} alt="Example" className="rounded-xl h-[12rem] md:h-[24rem] lg:h-[32rem]" />
-      {/* <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" /> */}
-    </div>
-    
-    {/* Second Image Group */}
-    {/* <div className="flex justify-center lg:flex-row gap-4">
-      <img src={tableteventside} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[20rem]" />
-      <img src={tabletcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[20rem]" />
-    </div> */}
-    
-    {/* Third Image Group */}
-    {/* <div className="flex  justify-center lg:flex-row gap-4">
-      <img src={laptopsidelogin} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
-      <img src={laptopcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
-    </div> */}
-  </div>
-
-
-
-        <div className='mt-16'>
+      <div className='mt-16'>
             <p className="text-white text-base font-medium leading-normal">KATO-OK Delivery Application</p>
             <p className="text-[#9cacba] text-sm font-normal leading-normal">A delivery application for Gumaca, Quezon.</p>
           </div>
@@ -94,6 +70,36 @@ const Projects = () => {
         
       
         </div>
+
+
+        <p className="text-white text-base font-medium leading-normal mt-16">UAP Quezon Chapter Information System</p>
+        <p className="text-[#9cacba] text-sm font-normal leading-normal text-justify ">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
+        
+
+          {/* uap photos */}
+  <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
+    {/* First Image Group */}
+    <div className="flex  lg:flex-row gap-4 ">
+      <img src={allside} alt="Example" className="rounded-xl h-[12rem] md:h-[24rem] lg:h-[32rem]" />
+      {/* <img src={cpcenter} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[24rem]" /> */}
+    </div>
+    
+    {/* Second Image Group */}
+    {/* <div className="flex justify-center lg:flex-row gap-4">
+      <img src={tableteventside} alt="Example" className="rounded-xl h-[8rem]  md:h-[16rem] lg:h-[20rem]" />
+      <img src={tabletcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[20rem]" />
+    </div> */}
+    
+    {/* Third Image Group */}
+    {/* <div className="flex  justify-center lg:flex-row gap-4">
+      <img src={laptopsidelogin} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
+      <img src={laptopcenter} alt="Example" className="rounded-xl h-[8rem] md:h-[16rem] lg:h-[16rem]" />
+    </div> */}
+  </div>
+
+
+
+   
 
         <div className='mt-16'>
             <p className="text-white text-base font-medium leading-normal">Pasabuy Chat Application</p>
