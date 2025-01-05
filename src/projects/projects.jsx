@@ -73,8 +73,18 @@ const Projects = () => {
 
 
         <p className="text-white text-base font-medium leading-normal mt-16">UAP Quezon Chapter Information System</p>
+   
         <p className="text-[#9cacba] text-sm font-normal leading-normal text-justify ">A management system built for the United Architecture of the Philippines Quezon Chapter for better management of files, records and statement of account. </p>
-        
+
+        <div className='flex mt-2'>
+        <p className='text-white text-sm font-normal leading-normal text-justify mr-2'>
+          Visi the website at: 
+        </p>
+        <a href="https://www.uapquezon.site/" target="_blank" rel="noopener noreferrer">
+        <p className='text-[#9cacba] underline'>"https://www.uapquezon.site/"</p>
+        </a>
+        </div>
+      
 
           {/* uap photos */}
   <div className="flex flex-col lg:flex-row justify-center lg:px-0 gap-12 pb-3 mt-24">
