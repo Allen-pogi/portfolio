@@ -6,6 +6,7 @@ import Experience from "./experience/experience";
 import Skills from "./skills/skills";
 import ThreeDScene from "./3d/3d";
 import "./index.css";
+import { motion } from "framer-motion";
 
 const HomePage = () => {
   useEffect(() => {
@@ -49,15 +50,21 @@ const HomePage = () => {
                   Allen Paul A. Rebolla
                 </p>
                 <p className="text-[#9cacba] text-base font-normal leading-normal text-center">
-                  Software Engineer
+                  Web Developer
                 </p>
               </div>
             </div>
-            <div className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5" data-aos="fade-up" data-aos-delay="200">
+            <motion.div
+              className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5"
+           
+              initial={{ x: '100vw' }}
+              animate={{ x: 0 }}
+              transition={{ type: 'spring', stiffness: 20 }}
+            >
               <p className="text-white text-justify">
                 My name is Allen Paul Rebolla, a front-end developer based in Gumaca, Quezon, Philippines. I have worked on a wide range of front-end projects, from delivery applications to web management system, with a focus on creating clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
               </p>
-            </div>
+            </motion.div>
           </div>
 
           {/* Projects Section */}
