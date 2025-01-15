@@ -78,7 +78,7 @@ const Projects = () => {
 
         <div className='flex mt-2'>
         <p className='text-white text-sm font-normal leading-normal text-justify mr-2'>
-          Visi the website at: 
+          Visit the website at: 
         </p>
         <a href="https://www.uapquezon.site/" target="_blank" rel="noopener noreferrer">
         <p className='text-[#9cacba] underline'>"https://www.uapquezon.site/"</p>

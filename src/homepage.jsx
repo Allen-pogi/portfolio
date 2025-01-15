@@ -42,29 +42,36 @@ const HomePage = () => {
               className="flex w-full flex-col lg:flex-row gap-4 items-center"
               data-aos="fade-up"
             >
-              <div className="md:w-[16em] md:h-[16em] lg:w-[24em] lg:h-[24em] h-[8em] w-[8em] mt-10" data-aos="fade-up" data-aos-delay="400">
-                <ThreeDScene />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <p className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">
+              <motion.div 
+              initial={{x: '-100vw'}}
+              animate = {{x: 10}}
+              transition={{ type: 'tween', duration: 3, ease: 'easeInOut' }} // Increased duration for slower animation
+              className="md:w-[16em] md:h-[16em] lg:w-[24em] lg:h-[24em] h-[8em] w-[8em] mt-10 mb-24"
+              >
+                
+  <ThreeDScene />
+  <p className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">
                   Allen Paul A. Rebolla
                 </p>
                 <p className="text-[#9cacba] text-base font-normal leading-normal text-center">
                   Web Developer
                 </p>
+              </motion.div>
+           
+              <div className="flex flex-col items-center justify-center">
+               
               </div>
             </div>
             <motion.div
-              className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5"
-           
-              initial={{ x: '100vw' }}
-              animate={{ x: 0 }}
-              transition={{ type: 'spring', stiffness: 20 }}
-            >
-              <p className="text-white text-justify">
-                My name is Allen Paul Rebolla, a front-end developer based in Gumaca, Quezon, Philippines. I have worked on a wide range of front-end projects, from delivery applications to web management system, with a focus on creating clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
-              </p>
-            </motion.div>
+  className="flex w-full max-w-[720px] gap-3 @[480px]:w-auto mt-5"
+  initial={{ x: '100vw' }}
+  animate={{ x: 0 }}
+  transition={{ type: 'tween', duration: 3, ease: 'easeInOut' }} // Increased duration for slower animation
+>
+  <p className="text-white text-justify">
+    My name is Allen Paul Rebolla, a front-end developer based in Gumaca, Quezon, Philippines. I have worked on a wide range of front-end projects, from delivery applications to web management system, with a focus on creating clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
+  </p>
+</motion.div>
           </div>
 
           {/* Projects Section */}
